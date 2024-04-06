@@ -1,0 +1,118 @@
+<!doctype html>
+    <html>
+        <head>
+            <title>Parallax</title>
+            <meta charset="utf">
+            <style type="text/css"> 
+                
+                body, html{
+                    margin: 0;
+                    font: 16px "lato", sans-serif;
+                    color: #777;
+                    height: 100%;
+                }
+
+                .conteudo{
+                    color: #777;
+                    background-color: white;
+                    text-align: center;
+                    padding: 50px 50px;
+                }
+
+                h3{
+                    text-transform: uppercase;
+                    text-align: center;
+                }
+
+
+                /* EFEITO PARALLAX */
+                .caixa1, .caixa2 ,.caixa3, .caixa4{
+                    position:relative;
+                    height: 100%;
+                    opacity: 0.9;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    background-attachment: fixed;
+
+                }
+
+                .caixa1{
+                    background-image: url(imagem/imagem1.jpg);
+                }
+                .caixa2{
+                    background-image: url(imagem/imagem2.jpg);
+                }
+                .caixa3{
+                    background-image: url(imagem/imagem3.jpg);
+                }
+                .caixa4{
+                    background-image: url(imagem/imagem4.jpg);
+                }
+
+                .conteudo-titulo{
+                    position: absolute;
+                    left: 0;
+                    top: 45%;
+                    width: 100%;
+                    text-align: center;
+                }
+
+                .conteudo-titulo span.titulo{
+                color: #fff;
+                background-color: #111;
+                padding: 18px;
+                font-size: 25px;
+                letter-spacing: 10px;
+               }
+
+             </style>
+        </head>
+        <body>
+            <div class="caixa1">
+                <div class="conteudo-titulo">
+                    <span class="titulo">Conteudo 1</span>
+                </div>
+            </div>
+
+            <div class="conteudo">
+                <h3>Parallax</h3>
+                <p>Lorem ipsolun suhas uhsa hsa</p>
+            </div>
+
+            <div class="caixa2">
+                Conteudo 3
+            </div>
+
+            <div class="conteudo">
+                <h3>Parallax</h3>
+                <p>Lorem ipsolun suhas uhsa hsaLorem ipsolun suhas uhsa hsa
+                    Lorem ipsolun suhas uhsa hsaLorem ipsolun suhas uhsa hsav
+                    Lorem ipsolun suhas uhsa hsaLorem ipsolun suhas uhsa hsaLorem 
+                    Lorem ipsolun suhas uhsa hsaLorem ipsolun suhas uhsa hsaLorem 
+                    Lorem ipsolun suhas uhsa hsaLorem ipsolun suhas uhsa hsaLorem
+                    Lorem ipsolun suhas uhsa hsaLorem ipsolun suhas uhsa hsa
+                </p>
+            </div>
+
+            <div class="caixa3">
+                Conteudo 1
+            </div>
+
+            <div class="conteudo">
+                <h3>Parallax</h3>
+                <p>Lorem ipsolun suhas uhsa hsaLorem ipsolun suhas uhsa hsa
+                    Lorem ipsolun suhas uhsa hsaLorem ipsolun suhas uhsa hsav
+                    Lorem ipsolun suhas uhsa hsaLorem ipsolun suhas uhsa hsaLorem 
+                    Lorem ipsolun suhas uhsa hsaLorem ipsolun suhas uhsa hsaLorem 
+                    Lorem ipsolun suhas uhsa hsaLorem ipsolun suhas uhsa hsaLorem 
+                    Lorem ipsolun suhas uhsa hsaLorem ipsolun suhas uhsa hsa
+                </p>
+            </div>
+
+            <div class="caixa4">
+                Conteudo 1
+            </div>
+            
+        </body>
+    </html>

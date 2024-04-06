@@ -1,0 +1,120 @@
+body {
+  background: white url('imagem/fundo.png');
+  margin: 0px;
+  padding: 0px;
+}
+
+#conteiner {
+  min-width: 950px
+  ;
+  text-align: center;
+  margin: 10px auto;
+  width: 85%;
+}
+
+#conteudo {
+  border: 1px solid black;
+  background: #CE1420;
+}
+
+#menu-navegacao{
+  border: 1px solid black;
+  margin: 0px 0px;
+  padding: 15px 10px;
+  background: orange;
+}
+
+#logo {
+  background: #EC0615;
+
+}
+
+.conteudo-principal {
+  background: white;
+  width: 40%;
+  margin: 10px 10px;
+  padding: 5px;
+  text-align: center;
+  display: block;
+  float: left;
+}
+
+#menu-opcoes {
+  border: 1px solid;
+  background: red;
+  width: 10%;
+  height: 350px;
+  margin: 10px auto;
+  padding: 5px;
+  float: right;
+}
+
+.rodape {
+  clear: both
+}
+
+
+/* conteudo */
+
+
+
+
+
+
+/* links */ 
+
+.link-navegacao {
+  margin: 0px;
+  padding: 10px 60px;
+  height: 125px;
+  text-decoration: bold;
+}
+.link-opcoes {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  background: orange;
+  border: 2px ridge #ED7C1A ;
+  padding: 8px;
+  margin: 10px 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#menu-navegacao a:hover {
+  color: red;
+  border: 2px ridge #ED7C1A ;
+  background: yellow;
+  padding: 10px 65px;
+}
+
+#menu-opcoes a:hover {
+  color: red;
+  padding: 10px;
+  background: yellow;
+  display: block;
+}
+
+
+
+/* formatacao */
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  border: 3px solid grey;
+  margin: 10px;
+  padding: 10px;
+}
